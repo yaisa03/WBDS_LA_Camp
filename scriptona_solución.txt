@@ -1,0 +1,48 @@
+    1  rm proyecto_final_pre-camp_wbds_la-yaisa03
+    2  rm -R proyecto_final_pre-camp_wbds_la-yaisa03
+    3  git clone git@github.com:WomenBioinfoDataScLA/proyecto_final_pre-camp_wbds_la-yaisa03.git
+    4  cd proyecto_final_pre-camp_wbds_la-yaisa03
+    5  ./welcome.sh
+    6  cd paso_2
+    7  ls
+    8  cat instrucciones.txt
+    9  cd ..
+   10  cd paso_5
+   11  cat head -n 2 instrucciones.txt
+   12  head -n 2 instrucciones.txt
+   13  cd ..
+   14  cd paso_10
+   15  cat instrucciones.txt
+   16   curl -o GPLv3.txt https://www.gnu.org/licenses/gpl-3.0.txt
+   17  grep --help
+   18  grep -c 'freedom' GPLv3.txt
+   19  cd ..
+   20  cd paso_8
+   21  cat instrucciones.txt
+   22  curl -o 7PND.txt https://www.rcsb.org/fasta/entry/7PND
+   23   grep -o -i K 7PND.txt | wc -l
+   24  cd ..
+   25  cd paso_
+   26  cd paso_24
+   27  cat instrucciones.txt
+   28  curl -o F4HVG8  https://www.alphafold.ebi.ac.uk/entry/F4HVG8
+   29  ls -h
+   30  ls -ha
+   31  ls -la
+   32  cd ..
+   33  cd paso_7
+   34  cat instrucciones.txt
+   35   grep -o 'Homo sapines' *.fasta | wc -l
+   36  cd ..
+   37  cd paso_0
+   38  cd paso_7
+   39   grep -o -i 'Homo sapines' *.fasta | wc -l
+   40   grep -o -i 'Homo sapiens' *.fasta | wc -l
+   41  cd ..
+   42  cd paso_9
+   43  cat instrucciones.txt
+   44  ls
+   45  cat *.md >> posta_final.txt
+   46  cat posta_final.txt
+   47  cd ..
+   48   history >> scriptona_solución.txt
